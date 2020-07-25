@@ -1,8 +1,7 @@
 "use strict";
 
 const calculateEngravingPrice = function (message, pricePerWord) {
-    const engravingPrice = message.split(' ').length * pricePerWord
-    return engravingPrice
+    return message.split(' ').length * pricePerWord
 };
 
 console.log(

@@ -1,10 +1,8 @@
 "use strict";
 
-let number = 0;
 const logItems = function (array) {
     for (let i = 0; i < array.length; i++) {
-        number += 1;
-        console.log(`${number} - ${array[i]}`);
+        console.log(`${i+1} ${array[i]}`);
     }
 };
 

@@ -2,11 +2,7 @@
 
 const checkForSpam = function (message) {
     const isSearchWord = message.toLowerCase()
-    if (isSearchWord.includes('sale') || isSearchWord.includes('spam')) {
-        return true
-    }
-    return false
-
+    return (isSearchWord.includes('sale') || isSearchWord.includes('spam'))
 };
 
 console.log(checkForSpam('Latest technology news'));
